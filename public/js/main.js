@@ -63,7 +63,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("guest@bbkxterminal.web.app:~$ " + command.innerHTML, "no-animation", 0);
+      addLine("guest@thisistroyza.web.app:~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -85,6 +85,7 @@ function enterKey(e) {
   }
 }
 
+//handle all the command that user prompt on the terminal
 function commander(cmd) {
   switch (cmd.toLowerCase()) {
     case "help":

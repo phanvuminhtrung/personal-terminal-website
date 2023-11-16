@@ -1,4 +1,5 @@
-function $(elid) { // This is a helper function that takes an ID string as its argument
+// This is a helper function that takes an ID string as its argument
+function $(elid) { 
   return document.getElementById(elid);
 }
 

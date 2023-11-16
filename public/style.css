@@ -71,7 +71,7 @@ b {
 
 #liner::before {
   color: #519975;
-  content: "guest@bbkxterminal.web.app:~$";
+  content: "guest@thisistroyza.web.app:~$";
 }
 
 #liner.password::before {/* targets the ::before pseudo-element of the #liner element when it has a password class.*/
