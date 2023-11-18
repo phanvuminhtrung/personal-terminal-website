@@ -22,18 +22,24 @@
     <meta property="og:locale:alternate" content="en_GB" />
     <meta property="og:locale:alternate" content="fr_FR" />
     <meta property="og:locale:alternate" content="es_ES" />
-    <title>BBKX | Terminal</title>
+    <title>thisistroyza's terminal</title>
     <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
     <link rel="icon" type="image/x-icon" href="./img/portfolio-logo.png" />
   </head>
   <body>
+    <!-- terminal response area -->
     <div id="terminal">
-        <p class>
-            <span class="color2">Copyright © 2023 Vu (Troy) Phan. All rights reserved</span>
-        </p>
+      <!-- Copyright area -->
+      <p class>
+        <span class="color2">Copyright © 2023 Vu (Troy) Phan. All rights reserved</span>
+      </p>
+       <!-- ASCII art -->
       <a id="before"></a>
     </div>
+
+    <!-- terminal input area -->
     <div id="command" onclick="$('texter').focus();">
+      <!-- textarea -->
       <textarea
         type="text"
         id="texter"
@@ -43,10 +49,16 @@
         onkeypress="typeIt(this, event);"
         autofocus
       ></textarea>
+         <!-- cursor -->
       <div id="liner">
         <span id="typer"></span><b class="cursor" id="cursor">█</b>
       </div>
     </div>
+
+    <!-- footer area -->
+    <p class>
+      <span class="color2">Sponsor by a broke developer. Donate here: <a href="https://www.buymeacoffee.com/thisistroyza" target="_blank">Thisistroyza</a></span>
+    </p>  
 
     <script src="js/caret.js"></script>
     <script src="js/main.js"></script>

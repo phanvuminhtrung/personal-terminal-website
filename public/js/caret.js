@@ -1,11 +1,11 @@
-// This is a helper function that takes an ID string as its argument
+///SUMARY: caret.js deals with the cursor behavior & user input format in the website terminal.
+
+// Helper function: that takes an ID string as its argument
 function $(elid) { 
   return document.getElementById(elid);
 }
 
 var cursor;
-
-// This line of code sets the init function to be called when the window finishes loading.
 window.onload = init;
 
 function init() {
@@ -13,11 +13,13 @@ function init() {
   cursor.style.left = "0px";
 }
 
-function nl2br(txt) { // used to replace newline characters (\n) in a string with an empty string
+// Helper function: fortmat text from input to make it aligns with the visual and functional design.
+function nl2br(txt) { 
   return txt.replace(/\n/g, ''); // uses the replace() method with a regular expression /\n/g to globally replace all occurrences of the newline character with an empty string
 }
 
-function typeIt(from, e) { // used to update the content of an HTML element, based on the input provided by the user in a text area.
+// Helper function: update the content of an HTML element, based on the input provided by the user in a text area.
+function typeIt(from, e) { 
   e = e || window.event; 
   // window.event: the current event that is being handled by the browser
   // e: the event that was triggered by the user action (such as a key press)
@@ -28,6 +30,7 @@ function typeIt(from, e) { // used to update the content of an HTML element, bas
   }
 }
 
+//Helper function: manages the movement of the cursor in response to arrow key presses.
 function moveIt(count, e) { // move the cursor to the left or right based on the keyboard input
   // count: represents the number of characters in the text being typed
   e = e || window.event;

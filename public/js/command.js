@@ -1,3 +1,5 @@
+/// SUMMARY: command.js contains variables with URLs and arrays for different commands like help, whois, projects, etc. It's likely used by main.js to fetch command-specific content.
+
 var portfolio = "https://www.bbkx.live/"
 var linkedin = "https://www.linkedin.com/in/bbkx/"
 var github = "https://github.com/bbkx226"

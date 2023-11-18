@@ -1,3 +1,5 @@
+/// SUMMARY: main.js is using to handle the core functionality of the terminal.
+
 var before = document.getElementById("before");
 var liner = document.getElementById("liner");
 var command = document.getElementById("typer"); 
@@ -30,7 +32,7 @@ console.log(
 
 console.log("%cVoila! The magical phrase you've been questing for! Password: '" + password + "' - I wonder what it does?🤔", "color: grey");
 
-//init
+// Initialize
 textarea.value = "";
 command.innerHTML = textarea.value;
 
@@ -85,7 +87,7 @@ function enterKey(e) {
   }
 }
 
-//handle all the command that user prompt on the terminal
+// Handle all the command that user prompt on the terminal
 function commander(cmd) {
   switch (cmd.toLowerCase()) {
     case "help":
