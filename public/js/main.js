@@ -152,10 +152,6 @@ function commander(cmd) {
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
       break;
-    case "facebook":
-      addLine("Opening Facebook...", "color2", 0);
-      newTab(facebook);
-      break;
     case "gcloud":
       addLine("Opening Google Cloud Skills Boost...", "color2", 0);
       newTab(gcloud);

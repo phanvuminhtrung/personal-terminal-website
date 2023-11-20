@@ -1,10 +1,8 @@
 /// SUMMARY: command.js contains variables with URLs and arrays for different commands like help, whois, projects, etc. It's likely used by main.js to fetch command-specific content.
 
-var portfolio = "https://www.bbkx.live/"
-var linkedin = "https://www.linkedin.com/in/bbkx/"
-var github = "https://github.com/bbkx226"
-var facebook = "https://www.facebook.com/bbkx.0226/"
-var instagram = "https://www.instagram.com/bbkx_/"
+var portfolio = "http://troyphan.space/"
+var linkedin = "https://www.linkedin.com/in/vuphanit/"
+var github = "https://github.com/phanvuminhtrung"
 var discord = "https://discord.com/oauth2/authorize?client_id=816611024362668122&permissions=156766824512&scope=bot"
 var aimagenerator = "https://imagegeneratorai-6e92d.web.app/"
 var blockchain = "https://blockchainapp-4e293.web.app/"
@@ -34,16 +32,15 @@ help = [
     '| projects   | View Coding Projects                                                      |',
     '| social     | Display Social Networks                                                   |',
     '| history    | View command history                                                      |',
-    '| help       | Ah, yes. You\'re a command whisperer! You already know what this one does. |',
-    '| email      | Please don\'t spam my email                                                |',
+    '| help       | Ah, yes. You\'re a command whisperer! You already know what this one does.|',
+    '| email      | Please don\'t spam my email                                               |',
     '| clear      | Clear terminal                                                            |',
     '| banner     | Display the header                                                        |',
     '| LinkedIn   | Checkout my LinkedIn profile for the latest updates!                      |',
     '| GitHub     | Discover more projects on my GitHub profile                               |',
-    '| Facebook   | Contact me via Facebook                                                   |',
     '| GCloud     | View my Google Cloud Skills Boost Profile                                 |',    
     '| Credly     | View my Credly Profile                                                    |',    
-    '| Instagram  | Don\'t expect much on it as I didn\'t post anything xD                      |',
+    '| Instagram  | Don\'t expect much on it as I didn\'t post anything xD                    |',
     '| bmttuxd    | Unveil the obscurity that lies within me.                                 |',
     '+========================================================================================+',
 ]
@@ -107,8 +104,6 @@ social = [
     "<br>",
     '<span class=\"command\">LinkedIn</span>       <a href="' + linkedin + '" target="_blank">LinkedIn/bbkx226' + "</a>",
     '<span class=\"command\">GitHub</span>         <a href="' + github + '" target="_blank">GitHub/bbkx226' + "</a>",
-    '<span class=\"command\">Facebook</span>       <a href="' + facebook + '" target="_blank">Facebook/Brandon Ban' + "</a>",
-    '<span class=\"command\">Instagram</span>      <a href="' + instagram + '" target="_blank">Instagram/Brandon Ban' + "</a>",
     "<br>"
 ]
 
